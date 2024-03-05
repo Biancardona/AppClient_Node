@@ -1,6 +1,7 @@
 {
   "name": "restapisnode",
   "version": "1.0.0",
+  "type": "module",
   "description": "creando RestAPIs con Node",
   "main": "index.js",
   "scripts": {
@@ -15,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^8.2.0",
     "nodemon": "^3.1.0"
   }
 }
