@@ -20,6 +20,12 @@ const clientsSchema = new Schema({
     {
         type: String,
         trim: true,
+    },
+    date:
+    {
+        type: Date,
+        trim: true,
+        default: Date.now(),
     }
 
 },
